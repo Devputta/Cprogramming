@@ -1,21 +1,137 @@
 #include<stdio.h>
 
-void fun1();
-void fun2();
-
 int main(){
-    for(int i = 1; i<=5; i++){
-        fun1();
-        fun2();
-    }
-    
+    FILE *fptr;
+    fptr = fopen("test.txt", "r");
+     
+    char ch; // one char at a time
+    fscanf(fptr, "%c", &ch);// file read 1 pointer, format speci, then address of varable to save 
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+    fscanf(fptr, "%c", &ch);
+    printf("Charcter : %c\n",ch);
+
+    fclose(fptr);
     return 0;
-}
-
-void fun1(){
-    printf("Hello\n");
-}
-
-void fun2(){
-    printf("Good bye\n");
 }
